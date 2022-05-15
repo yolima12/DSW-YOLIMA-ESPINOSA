@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+cabeza>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Proyecto de sitio Web 2022 -16-01</title>
+    <link rel="hoja de estilos" href="estilos.css">
+</cabeza>
+
+<cuerpo>
+    <!--Navbar desplegable-->
+        <div class="topnav" id="myTopnav">
+            <a href="design.html">Inicio</a>
+            <div class="menú desplegable">
+                <button class="dropbtn">Temas
+                    <i class="fa fa-caret-down"></i>
+                </botón>
+                <div class="contenido desplegable">
+                    <ul>
+                        <li><a href="#">Tema 1</a></li>
+                        <li><a href="#">Tema 2</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="menú desplegable">
+                <button class="dropbtn">Recursos Digitales
+                    <i class="fa fa-caret-down"></i>
+                </botón>
+                <div class="contenido desplegable">
+                    <ul>
+                        <li><a href="#">Recurso 1</a></li>
+                        <li><a href="#">Recurso 2</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="menú desplegable">
+                <button class="dropbtn">Aprendizaje
+                    <i class="fa fa-caret-down"></i>
+                </botón>
+                <div class="contenido desplegable">
+                    <ul>
+                        <li><a href="#">Actividad 1</a></li>
+                        <li><a href="#">Actividad 2</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="menú desplegable">
+                <button class="dropbtn">Acerca de
+                    <i class="fa fa-caret-down"></i>
+                </botón>
+                <div class="contenido desplegable">
+                    <ul>
+                        <li><a href="#">Autor</a></li>
+                    </ul>
+                </div>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776; </a>
+        </div>
+
+                      
+       <!-- Un formulario de búsqueda es una forma no-lineal de hacer búsquedas en un sitio web. -->
+
+       <form>
+        <input type="search" name="q" placeholder="Buscar">
+        <input type="submit" value="¡Vamos!">
+      </form>
+    </nav>
+
+   <!-- Aquí está el contenido principal de nuestra página -->
+   <main>
+
+     <!-- Contiene un artículo -->
+     <article>
+       <h2>etiquetas-semanticas-html5</h2>
+       <h3>Proposito</h3>
+       <p>
+   Lorem ipsum dolor sit amet consectetur adipisicing elit. At temporibus nihil cum soluta aut earum doloribus natus quasi sit ducimus magnam dolore consequuntur deleniti, atque dolor beatae a qui quos.
+       Todas esas etiquetas semánticas nos indican qué es el contenido que engloban y cuál es su relación con el conjunto de elementos del documento HTML.
+       Las etiquetas a las que vamos a prestar más atención en este artículo son las que definen la estructura general del sitio ( HEADER, ARTICLE, SECTION, ASIDE, FOOTER, NAV ) 
+       https://www.aulaclic.es/articulos/html5-semantica_1.html
+       </p>
+   </section>
+   <article>
+       <p>
+           <h4>Etiquetas semánticas, CSS Grid</h4> 
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, deleniti officiis illum ipsam eligendi, libero deserunt voluptates a ratione quae, pariatur iure est dolores vel placeat natus quod! Saepe, quaerat!
+           https://desarrolloweb.com/articulos/etiquetas-semanticas-html5.html
+           Una etiqueta se califica como semántica si tiene que ver el significado, es decir, si nos informa sobre lo que trata su contenido. Por ejemplo, la etiqueta SECTION nos dice que contiene una sección o capítulo dentro de la página. Frente a las etiquetas semánticas tenemos otros tipos de etiquetas como las que afectan al formato, como UL, a multimedia, como VIDEO
+           https://www.arkaitzgarro.com/html5/capitulo-2.html
+   
+           
+       </p>
+       <p><img src="data:image/png;base64,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"alt=""></p>
+     
+       <br> <br> <br> <br> <br> <br> <br>
+   </article>
+   </article>
+   <h5>MI MOCKUP</h5>
+   <p><img src="image/MOCKUP.png""alt=""></p>
+   <footer>
+       <p> YOLIMA ESPINOSA SERRANO</p>
+
+       <p>YOLIMAESPINOSA1694@HOTMAIL.COM</p>
+       <p>Código: 301122</p>
+       <p>Ingenieria de Sistemas</p>
+       <p>Skype:yolimaespinosa</p>
+
+           <p>YOLIMA12</p>
+           <p>FECHA:15/03/2022</p>
+       </footer>
+       
+       </body>
+       </html>
+
+                  </footer>
+    
+</body>
+</html>
