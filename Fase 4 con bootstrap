@@ -1,0 +1,112 @@
+<html lang="es-ES">
+
+<cabeza>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Proyecto de sitio Web 2022 - 16-01</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</cabeza>
+
+<body id="page-top">
+    <!--Navbar desplegable-->
+    <div style="altura: 100vh; ancho: 100%; pantalla: flex; flex-dirección: columna;">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="contenedor-fluido">
+                <a class="navbar-brand" href="index.html">Inicio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="contraer"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Alternar navegación">
+                    <span class="navbar-toggler-icon"></span>
+                </botón>
+                <div class="contraer navbar-contraer" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item menú desplegable">
+                            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Temas
+                            </un>
+                            <ul class="menú desplegable" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="formTema1.html">Tema 1</a></li>
+                                <li><a class="dropdown-item" href="formTema2.html">Tema 2</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item menú desplegable">
+                            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Recursos Digitales
+                            </un>
+                            <ul class="menú desplegable" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="formRecurso1.html">Recurso 1</a></li>
+                                <li><a class="dropdown-item" href="formRecurso2.html">Recurso 2</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item menú desplegable">
+                            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Aprendizaje
+                            </un>
+                            <ul class="menú desplegable" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Actividad 1</a></li>
+                                <li><a class="dropdown-item" href="formAprendizaje2.html">Actividad 2</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item menú desplegable">
+                            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Acerca de
+                            </un>
+                            <ul class="menú desplegable" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="formAutor.html">Autor</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!--Contenido-->
+        <div class="contenido">
+
+            <iframe width='100%' height='100%'  scrolling='yes'
+                src='https:&#x2F;&#x2F;www.goconqr.com&#x2F;es-ES&#x2F;p&#x2F;36620403-quiz-sobre-flex-box-quizzes?frame=true'
+                style='border: 1px solid #ccc' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen
+                msallowfullscreen></iframe><a href='https:&#x2F;&#x2F;www.goconqr.com&#x2F;es&#x2F;tests'>Test creado
+                con GoConqr por jhonatan varon</a>
+        </div>
+        <!--Footer-->
+        <footer class="footer">
+            <div style="display: inline-block; padding: 5px;">
+                <p>
+ JOSUÉ IGNACIO OCHOA TORRES
+                    &nbsp
+                    &nbsp
+                    Skype: josue.ochoa.torres
+                    &nbsp
+                    &nbsp
+                    <span id="datetime"></span>
+                </p>
+                <guión>
+                    var dt = nueva fecha();
+                    documento. getElementById("datetime"). innerHTML = dt. toLocaleDateString("es-CO");
+
+                    función myFunction() {
+                        var x = documento. getElementById("myTopnav");
+                        si (x. className === "topnav") {
+                            x. className += "responsivo";
+                        } más {
+                            x. className = "topnav";
+                        }
+                    }
+
+                </guión>
+            </div>
+        </pie de página>
+    </div>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Tema principal JS-->
+    <script src="js/scripts.js"></script>
+</cuerpo>
+
+</html>
