@@ -1,0 +1,140 @@
+<html>
+
+<cabeza>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Proyecto de sitio Web 2022 -16-01</title>
+    <link rel="hoja de estilos" href="estilos.css">
+</cabeza>
+
+<cuerpo>
+    <!--Navbar desplegable-->
+    <div style="altura: 100vh; ancho: 100%; pantalla: flex; flex-dirección: columna;">
+        <div class="topnav" id="myTopnav">
+            <a href="índice.html">Inicio</a>
+            <div class="menú desplegable">
+                <button class="dropbtn">Temas
+                    <i class="fa fa-caret-down"></i>
+                </botón>
+                <div class="contenido desplegable">
+                    <ul>
+                        <li><a href="formTema1.html">Tema 1</a></li>
+                        <li><a href="formTema2.html">Tema 2</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="menú desplegable">
+                <button class="dropbtn">Recursos Digitales
+                    <i class="fa fa-caret-down"></i>
+                </botón>
+                <div class="contenido desplegable">
+                    <ul>
+                        <li><a href="formrecurso1.html">Recurso 1</a></li>
+                        <li><a href="formrecurso2.html">Recurso 2</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="menú desplegable">
+                <button class="dropbtn">Aprendizaje
+                    <i class="fa fa-caret-down"></i>
+                </botón>
+                <div class="contenido desplegable">
+                    <ul>
+                        <li><a href="#">Actividad 1</a></li>
+                        <li><a href="#">Actividad 2</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="menú desplegable">
+                <button class="dropbtn">Acerca de
+                    <i class="fa fa-caret-down"></i>
+                </botón>
+                <div class="contenido desplegable">
+                    <ul>
+                        <li><a href="form.html">Autor</a></li>
+                    </ul>
+                </div>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776; </a>
+        </div>
+
+        <!--Contenido-->
+        <div class="contenido">
+            <div>
+                <h3>Propósito</h3>
+                <p>
+                    <!--Propisito Listas y enlaces-->
+                    Todas esas etiquetas semánticas nos indican qué es el contenido que engloban y cuál es su relación con el conjunto de elementos del documento HTML.
+                    Las etiquetas a las que vamos a prestar más atención en este artículo son las que definen la estructura general del sitio ( HEADER, ARTICLE, SECTION, ASIDE, FOOTER, NAV ) 
+                    https://www.aulaclic.es/articulos/html5-semantica_1.html
+ página web.
+                </p>
+            </div>
+            <div>
+                <h3>Introducción</h3>
+                <p>
+                    Las etiquetas semánticas estructurales nos sirven para que los motores de búsqueda,
+                     o cualquier otro mecanismo automático que lea un sitio web,
+                      sepa con exactitud qué partes de su contenido corresponden a cada una de las partes típicas  de un sitio.
+                       Generalmente, en cualquier documento tenemos una cabecera, un cuerpo y un pie de página, elementos que definen la estructura 
+                       representados por diversas etiquetas.
+                </p>
+            </div>
+            <div>
+                <h1></h1>
+                <img src="IMAGE/flex_terms.png" alt="HTML5"
+                    style="width: 50%; height: 50%; min-width: 450px; min-height: 400px;" > </img>
+            </div>
+            <div>
+                <h1>Listas y enlaces</h1>
+                <img src="enlaces.png" alt="HTML5"
+                    style="width: 50%; height: 50%; min-width: 200px; min-height: 150px;" > </img>
+                <img src="listas.jpg" alt="HTML5" style="width: 50%; height: 50%; min-width: 300px; min-height: 300px;">
+                </img>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <aside style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+                <h1>Timeline Facebook UNAD</h1>
+                <iframe
+                    src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                    width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                    allowfullscreen="verdadero"
+                    allow="reproducción automática; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+            </aparte>
+        </div>
+        <!--Footer-->
+        <footer class="pie de página">
+            <div style="display: inline-block; relleno: 5px;">
+                <p>
+ JOSUÉ IGNACIO OCHOA TORRES
+                    &nbsp
+                    &nbsp
+                    Skype: josue.ochoa.torres
+                    &nbsp
+                    &nbsp
+                    <span id="datetime"></span>
+                </p>
+                <guión>
+                    var dt = nueva fecha();
+                    documento. getElementById("datetime"). innerHTML = dt. toLocaleDateString("es-CO");
+
+                    función myFunction() {
+                        var x = documento. getElementById("myTopnav");
+                        si (x. className === "topnav") {
+                            x. className += "responsivo";
+                        } más {
+                            x. className = "topnav";
+                        }
+                    }
+
+                </guión>
+            </div>
+        </pie de página>
+    </div>
+
+</cuerpo>
+
+</html>

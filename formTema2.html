@@ -1,0 +1,190 @@
+<html>
+
+<cabeza>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Proyecto de sitio Web 2022 - II</title>
+    <link rel="hoja de estilos" href="estilos.css">
+</cabeza>
+
+<cuerpo>
+    <!--Navbar desplegable-->
+    <div style="altura: 100vh; ancho: 100%; pantalla: flex; flex-dirección: columna;">
+        <div class="topnav" id="myTopnav">
+            <a href="índice.html">Inicio</a>
+            <div class="menú desplegable">
+                <button class="dropbtn">Temas
+                    <i class="fa fa-caret-down"></i>
+                </botón>
+                <div class="contenido desplegable">
+                    <ul>
+                        <li><a href="formTema1.html">Tema 1</a></li>
+                        <li><a href="#">Tema 2</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="menú desplegable">
+                <button class="dropbtn">Recursos Digitales
+                    <i class="fa fa-caret-down"></i>
+                </botón>
+                <div class="contenido desplegable">
+                    <ul>
+                        <li><a href="formrecurso1.html">Recurso 1</a></li>
+                        <li><a href="formrecurso2.html">Recurso 2</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="menú desplegable">
+                <button class="dropbtn">Aprendizaje
+                    <i class="fa fa-caret-down"></i>
+                </botón>
+                <div class="contenido desplegable">
+                    <ul>
+                        <li><a href="#">Actividad 1</a></li>
+                        <li><a href="#">Actividad 2</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="menú desplegable">
+                <button class="dropbtn">Acerca de
+                    <i class="fa fa-caret-down"></i>
+                </botón>
+                <div class="contenido desplegable">
+                    <ul>
+                        <li><a href="form.html">Autor</a></li>
+                    </ul>
+                </div>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776; </a>
+        </div>
+
+        <!--Contenido-->
+        <div class="contenido">
+            <div>
+                <h1 style="text-align: center;" > Listas</h1>
+            </div>
+            <div>
+                <h2><span>Listas no ordenadas: <ul> </span></h2>
+                <p>Las listas no ordenadas van dentro de la etiqueta 
+ punto que queramos añadir a la lista, lo haremos dentro de la etiqueta  y su cierre. </p>
+                <p>Si no le indicamos nada a la etiqueta 
+ queremos definir nosotros mismo el símbolo del punto, podemos gracias al atributo "type". </p>
+                <p>Así podemos hacer que la lista esté definida por puntos negros (li type="disc"), por puntos con el
+ fondo blanco (li type="circle") o por cuadrados (li type="square"). Aunque esta apariencia dependerá
+ del navegador. Hay algunos navegadores que dan otras apariencias a estos mismos atributos. </p>
+                <h2>Ejemplo</h2>
+                <div style="display: flex; justify-content: center; align-items: center;">
+                    <img src="imagen5.png" alt="HTML5"
+                        style="width: 50%; height: 50%; min-width: 200px; min-height: 150px;" > </img>
+                </div>
+            </div>
+            <div>
+                <h2><span>Listas no ordenadas: <ol> </span></h2>
+                <p>Las listas ordenadas van enmarcadas dentro de las etiquetas 
+ lista se escribe con la misma etiqueta que en las no numeradas: . Pero al ser listas
+                    ordenadas los símbolos serán números y éstos se irán generando automáticamente por orden, conforme
+ escribamos nuevos puntos. </p>
+                <p>En las listas ordenadas podemos hacer que el primer punto comience con el número que nosotros
+ queramos. Lo conseguiremos gracias al atributo "value". Los siguientes puntos que escribamos se
+ generarán automáticamente por orden, partiendo de ese número. </p>
+                <p>Por ejemplo, si queremos que nuestra lista empiece por el número 10, sólo deberemos escribir lo
+                    siguiente:</p>
+                <div style="display: flex; justify-content: center; align-items: center;">
+                    <img src="imagen6.png" alt="HTML5"
+                        style="width: 50%; height: 50%; min-width: 200px; min-height: 150px;" > </img>
+                </div>
+            </div>
+            <div>
+                <h2><span id="Listas_de_definiciones_ltdlgt_ltdtgt_y_ltddgt">Listas de definiciones: <dl>,
+ y  </span></h2>
+                <p>Si lo que vamos a hacer es un listado de definiciones, podemos usar las etiquetas 
+ y . Vamos a explicarlas por partes:</p>
+                <p>La etiqueta 
+ ella, entre ella y su cierre, va a ir una definición. </p>
+                <p>La etiqueta 
+ vamos a definir. Para entendernos mejor, dentro de  iría el título de la definición. </p>
+                <p>La etiqueta 
+ irá la definición. </p>
+                <p>Si escribimos varios listados de definición, éstas se separarán automáticamente entre ellas para
+ facilitar su diferenciación. </p>
+                <h2>Ejemplo</h2>
+                <div style="display: flex; justify-content: center; align-items: center;">
+                    <img src="imagen7.png" alt="HTML5"
+                        style="width: 50%; height: 50%; min-width: 200px; min-height: 150px;" > </img>
+                </div>
+            </div>
+            <div>
+                <h1 style="text-align: center;" > Enlaces</h1>
+                <p>Lo más importante de los documentos HTML son los enlaces. Ya que mediante los enlaces en HTML podemos
+                    comunicar una página con otra. De esta forma, enlazando documentos HTML podemos acabar tejiendo lo
+                    que es Internet.
+                    Para crear un enlace en HTML utilizamos el elemento A con la siguiente sintaxis:</p>
+                <pre><código><span><a> </span>Contenido del enlace<span></a> </span>
+                    </código></pre>
+                <p>Pero solo con esto el enlace no tendrá mucha utilidad ya que el principal objetivo del enlace es
+                    enlazar a un destino. Para poder indicar el destino de un enlace utilizamos el <a
+                        href="http://www.w3api.com/HTML/a/href">atributo href</a>. En valor del <a
+                        href="http://www.w3api.com/HTML/a/href">atributo href</a> puede ser cualquier URI que represente
+ un recurso. Es decir, una página, una parte de una página, una URL genérica, un archivo,... De esta
+                    forma el enlace en <a href="http://www.manualweb.net/html/">HTML</a> lo crearemos con la sintaxis:
+                </p>
+                <pre class="highlight"><code><span class="nt"><a</span> <span class="na">href=</span><span class ="s">"documento.html"</span><span class="nt">> </span>Enlace a un documento<span class="nt"></a> </span>
+                    <span class="nt"><a</span> <span class="na">href=</span><span class="s">"documento.html#resumen"</span><span  class="nt">> </span>Enlace a una parte de un documento<span class="nt"></a> </span>
+                    <span class="nt"><a</span> <span class="na">href=</span><span class="s">"http://www.manualweb.net"</span><span  class="nt">> </span>Enlace a una web<span class="nt"></a> </span>
+                    <span class="nt"><a</span> <span class="na">href=</span><span class="s">"http://www.manualweb.net/tutorial-html/"</span>< span class="nt">> </span>Enlace a un directorio<span class="nt"></a> </span>
+                    <span class="nt"><a</span> <span class="na">href=</span><span class="s">"miimagen.png"</span><span  class="nt">> </span>Enlace a una imagen<span class="nt"></a> </span>
+                    <span class="nt"><a</span> <span class="na">href=</span><span class="s">"mimusica.mp3"</span><span  class="nt">> </span>Enlace a un archivo de sonido<span class="nt"></a> </span>
+                    </código></pre>
+
+            </div>
+            <div>
+                <h1 style="text-align: center;" > Referencias</h1>
+                <!--Lista Referencias-->
+                <ul>
+                    <li>
+ Listas Html. (2022). Recuperado 17 de abril de 2022, sitio web de hazunaweb:
+                        <a href="https://www.hazunaweb.com/curso-de-html/listas/ ">
+                            https://www.hazunaweb.com/curso-de-html/listas/
+                        </un>
+                    </li>
+                    <li>
+                        Enlaces html. (2022). Recuperado 17 de abril de 2022, de manualweb website:
+                        <a href="https://www.manualweb.net/html/enlaces-html/">
+                            https://www.manualweb.net/html/enlaces-html/ 
+                        </un>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--Footer-->
+        <footer class="pie de página">
+            <div style="display: inline-block; relleno: 5px;">
+                <p>
+ JOSUÉ IGNACIO OCHOA TORRES
+                    &nbsp
+                    &nbsp
+                    Skype: josue.ochoa.torres
+                    &nbsp
+                    &nbsp
+                    <span id="datetime"></span>
+                </p>
+                <guión>
+                    var dt = nueva fecha();
+                    documento. getElementById("datetime"). innerHTML = dt. toLocaleDateString("es-CO");
+
+                    función myFunction() {
+                        var x = documento. getElementById("myTopnav");
+                        si (x. className === "topnav") {
+                            x. className += "responsivo";
+                        } más {
+                            x. className = "topnav";
+                        }
+                    }
+
+                </guión>
+            </div>
+        </pie de página>
+    </div>
+</cuerpo>
+
+</html>

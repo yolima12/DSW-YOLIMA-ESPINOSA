@@ -1,0 +1,105 @@
+<html>
+
+<cabeza>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Proyecto de sitio Web 2022 -16-01</title>
+    <link rel="hoja de estilos" href="estilos.css">
+</cabeza>
+
+<cuerpo>
+    <!--Navbar desplegable-->
+    <div style="altura: 100vh; ancho: 100%; pantalla: flex; flex-dirección: columna;">
+        <div class="topnav" id="myTopnav">
+            <a href="índice.html">Inicio</a>
+            <div class="menú desplegable">
+                <button class="dropbtn">Temas
+                    <i class="fa fa-caret-down"></i>
+                </botón>
+                <div class="contenido desplegable">
+                    <ul>
+                        <li><a href="formTema1.html">Tema 1</a></li>
+                        <li><a href="#">Tema 2</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="menú desplegable">
+                <button class="dropbtn">Recursos Digitales
+                    <i class="fa fa-caret-down"></i>
+                </botón>
+                <div class="contenido desplegable">
+                    <ul>
+                        <li><a href="formrecurso1.html">Recurso 1</a></li>
+                        <li><a href="#">Recurso 2</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="menú desplegable">
+                <button class="dropbtn">Aprendizaje
+                    <i class="fa fa-caret-down"></i>
+                </botón>
+                <div class="contenido desplegable">
+                    <ul>
+                        <li><a href="#">Actividad 1</a></li>
+                        <li><a href="#">Actividad 2</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="menú desplegable">
+                <button class="dropbtn">Acerca de
+                    <i class="fa fa-caret-down"></i>
+                </botón>
+                <div class="contenido desplegable">
+                    <ul>
+                        <li><a href="form.html">Autor</a></li>
+                    </ul>
+                </div>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776; </a>
+        </div>
+
+        <!--Contenido-->
+        <div class="contenido">
+            <div>
+                <h1 style="text-align: center;" > Video Sobre Listas y Enlaces</h1>
+            </div>
+            <div style="display: flex; justify-content: center; align-items: center; flex: 1;">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/zZDZy9_1TrA"
+                title="Reproductor de vídeo de YouTube" frameborder="0"
+                allow="acelerómetro; reproducción automática; escritura del portapapeles; medios cifrados; giroscopio; imagen en imagen"
+                allowfullscreen></iframe>
+            </div>
+           
+        </div>
+        <!--Footer-->
+        <footer class="pie de página">
+            <div style="display: inline-block; relleno: 5px;">
+                <p>
+ JOSUÉ IGNACIO OCHOA TORRES
+                    &nbsp
+                    &nbsp
+                    Skype: josue.ochoa.torres
+                    &nbsp
+                    &nbsp
+                    <span id="datetime"></span>
+                </p>
+                <guión>
+                    var dt = nueva fecha();
+                    documento. getElementById("datetime"). innerHTML = dt. toLocaleDateString("es-CO");
+
+                    función myFunction() {
+                        var x = documento. getElementById("myTopnav");
+                        si (x. className === "topnav") {
+                            x. className += "responsivo";
+                        } más {
+                            x. className = "topnav";
+                        }
+                    }
+
+                </guión>
+            </div>
+        </pie de página>
+    </div>
+</cuerpo>
+
+</html>

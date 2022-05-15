@@ -1,0 +1,111 @@
+<html>
+
+<cabeza>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Proyecto de sitio Web 2022 -16-01</title>
+    <link rel="hoja de estilos" href="estilos.css">
+</cabeza>
+
+<cuerpo>
+    <!--Navbar desplegable-->
+    <div style="altura: 100vh; ancho: 100%; pantalla: flex; flex-dirección: columna;">
+        <div class="topnav" id="myTopnav">
+            <a href="índice.html">Inicio</a>
+            <div class="menú desplegable">
+                <button class="dropbtn">Temas
+                    <i class="fa fa-caret-down"></i>
+                </botón>
+                <div class="contenido desplegable">
+                    <ul>
+                        <li><a href="#">Tema 1</a></li>
+                        <li><a href="formTema2.html">Tema 2</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="menú desplegable">
+                <button class="dropbtn">Recursos Digitales
+                    <i class="fa fa-caret-down"></i>
+                </botón>
+                <div class="contenido desplegable">
+                    <ul>
+                        <li><a href="formrecurso1.html">Recurso 1</a></li>
+                        <li><a href="formrecurso2.html">Recurso 2</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="menú desplegable">
+                <button class="dropbtn">Aprendizaje
+                    <i class="fa fa-caret-down"></i>
+                </botón>
+                <div class="contenido desplegable">
+                    <ul>
+                        <li><a href="#">Actividad 1</a></li>
+                        <li><a href="#">Actividad 2</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="menú desplegable">
+                <button class="dropbtn">Acerca de
+                    <i class="fa fa-caret-down"></i>
+                </botón>
+                <div class="contenido desplegable">
+                    <ul>
+                        <li><a href="#">Autor</a></li>
+                    </ul>
+                </div>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776; </a>
+        </div>
+
+        <!--Contenido-->
+        <div class="contenido">
+            <div class="card" style="align-self: center; display: flex;">
+                <div style="background-color: #f44336; border-radius: 15px 0px 0px 15px; height: 300px; width: 300px; display: flex;">
+                    <img src="yolima.jpg" width="80%" height="80%"
+                    style="align-items: center; display: block; margin-left: auto; margin-right: auto; align-self: center; border-radius: 50%;">
+                </div>
+                <div class="contenedor">
+                    <h2><b>yolima espinosa</b></h2>
+                    
+                    <ul>
+                        <li><b>Codigo:</b><a> 1006955841</a></li>
+                        <li><b>ecbti:</b><a> Ingenieria de Sistemas</a></li>
+                        <li><b>Correo:</b><a> yolimaespinosa1694@hotmail.com</a></li>
+                        <li><b>Usuario Skype:</b><a> </a>yolimaespinosa</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--Footer-->
+        <footer class="pie de página">
+            <div style="display: inline-block; relleno: 5px;">
+                <p>
+ JOSUÉ IGNACIO OCHOA TORRES
+                    &nbsp
+                    &nbsp
+                    Skype: josue.ochoa.torres
+                    &nbsp
+                    &nbsp
+                    <span id="datetime"></span>
+                </p>
+                <guión>
+                    var dt = nueva fecha();
+                    documento. getElementById("datetime"). innerHTML = dt. toLocaleDateString("es-CO");
+
+                    función myFunction() {
+                        var x = documento. getElementById("myTopnav");
+                        si (x. className === "topnav") {
+                            x. className += "responsivo";
+                        } más {
+                            x. className = "topnav";
+                        }
+                    }
+
+                </guión>
+            </div>
+        </pie de página>
+    </div>
+</cuerpo>
+
+</html>
